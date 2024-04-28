@@ -1,4 +1,7 @@
 import React from "react";
+import  { username, city}  from "../data/user";
+
+// eslint-disable-next-line import/no-anonymous-default-export
 
 function Home() {
   return (
@@ -9,3 +12,5 @@ function Home() {
     </div>
   );
 }
+
+export default Home;
